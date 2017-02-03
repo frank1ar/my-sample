@@ -70,7 +70,7 @@ namespace TouchWalkthrough
 				_lastTouchY = y;
 				break;
 
-			case MotionEventActions.Up:
+			case MotionEventActions.Up: //skipped 
 			case MotionEventActions.Cancel:
                     // This events occur when something cancels the gesture (for example the
                     // activity going in the background) or when the pointer has been lifted up.
